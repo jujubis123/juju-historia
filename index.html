@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Dúvida entre os dois filmes</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="imagem de uma sala de cinema com pôsteres de filmes">
+            <p>Você está de folga e decidiu que vai assistir a um filme. Dois filmes chamam sua atenção: *Barbie: As Três Mosqueteiras* e *Lilo e Stitch*. Você está em dúvida sobre qual escolher. Qual você vai assistir?</p>
+            <button class="btn-proximo" data-proximo="1">Barbie: As Três Mosqueteiras</button>
+            <button class="btn-proximo" data-proximo="2">Lilo e Stitch</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo4.png">
+            <p>Você decide assistir *Barbie: As Três Mosqueteiras*. O filme começa com Barbie e suas amigas treinando para se tornarem mosqueteiras. Elas enfrentam desafios e vilões ao longo da jornada. O que você mais gosta no filme?</p>
+            <button class="btn-proximo" data-proximo="3">As cenas de ação e luta com espadas</button>
+            <button class="btn-proximo" data-proximo="4">A mensagem sobre amizade e coragem</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo11.png">
+            <p>Você opta por assistir *Lilo e Stitch*. O filme começa com a jovem Lilo adotando um "cachorro" bem diferente, que na verdade é o experimento alienígena Stitch. Qual parte da história mais te emociona?</p>
+            <button class="btn-proximo" data-proximo="5">A relação entre Lilo e Stitch</button>
+            <button class="btn-proximo" data-proximo="6">A importância da família (ohana)</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>As cenas de ação são cheias de adrenalina! Você se empolga com Barbie e suas amigas derrotando os vilões e provando que podem ser mosqueteiras incríveis. No final, você sai inspirado pela força e determinação delas!</p>
+            <button class="btn-proximo" data-proximo="7">Assistir outro filme</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <p>A mensagem de amizade e coragem te toca profundamente. As personagens mostram que, juntas, podem enfrentar qualquer desafio, e você se sente inspirado a valorizar suas amizades!</p>
+            <button class="btn-proximo" data-proximo="7">Assistir outro filme</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>A relação entre Lilo e Stitch é adorável. Você fica emocionado ao ver como, mesmo sendo de mundos diferentes, eles constroem uma amizade verdadeira e se ajudam a superar seus problemas.</p>
+            <button class="btn-proximo" data-proximo="7">Assistir outro filme</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>A importância da família é o que mais te emociona. A frase “ohana quer dizer família, e família quer dizer nunca abandonar ou esquecer” fica na sua cabeça. Você reflete sobre o valor das pessoas queridas em sua vida.</p>
+            <button class="btn-proximo" data-proximo="7">Assistir outro filme</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Após assistir a esse filme, você sente vontade de ver outro. Será que é a hora de assistir aquele que você deixou para trás?</p>
+            <button class="btn-proximo" data-proximo="1">Barbie: As Três Mosqueteiras</button>
+            <button class="btn-proximo" data-proximo="2">Lilo e Stitch</button>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
